@@ -2,7 +2,7 @@
   "name": "toss-bundling",
   "version": "1.0.0",
   "description": "> https://frontend-fundamentals.com/bundling",
-  "main": "main.ts",
+  "main": "main.tsx",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,13 @@
   },
   "homepage": "https://github.com/caddyspoon/bundling-practice#readme",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "babel-loader": "^10.0.0",
     "prettier": "^3.6.2",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
@@ -26,6 +33,8 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "date-fns": "^4.1.0"
+    "date-fns": "^4.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
