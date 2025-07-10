@@ -1,4 +1,5 @@
 # 웹팩으로 배우는 번들링 | 예제 따라하기 리포지토리
+
 > https://frontend-fundamentals.com/bundling
 
 토스의 Bundling Fundamentals의 웹팩 번들링 예제 프로젝트를 실습으로 따라가는 리포지토리입니다.
