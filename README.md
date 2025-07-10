@@ -19,6 +19,6 @@
 ## 🔗 원본 저작권 및 라이선스
 
 이 리포지토리는 [Frontend Fundamentals](https://frontend-fundamentals.com/)의 MIT 라이선스에 따라 예제 코드를 참고하여 작성되었습니다.  
-원본 프로젝트의 저작권은 **Viva Republica, Inc.**에 있으며, 해당 라이선스 전문은 [`LICENSE`](./LICENSE.md) 파일을 참고해 주세요.
+원본 프로젝트의 저작권은 `Viva Republica, Inc.`에 있으며, 해당 라이선스 전문은 [`LICENSE`](./LICENSE.md) 파일을 참고해 주세요.
 
 ---
