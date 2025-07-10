@@ -2,6 +2,8 @@ import React from 'react';
 import { emojis } from './emoji';
 import { format } from 'date-fns';
 import './style.css';
+// logo.svg 를 import로 가져옴 (타입에러는 일단 무시해주세요)
+import logo from './assets/logo.svg';
 
 const App = () => {
   const [selectedEmoji, setSelectedEmoji] = React.useState(emojis[0]);
@@ -14,7 +16,8 @@ const App = () => {
 
   return (
     <div className="container">
-      <img src="./assets/logo.svg" alt="Logo" className="logo"></img>
+      {/*가져온 logo 모듈을 src에 넣어줌*/}
+      <img src={logo} alt="Logo" className="logo"></img>
       <h1>Emoji of the Day</h1>
       <div className="date-display">{format(new Date(), 'MMMM d, yyyy')}</div>
       <div className="emoji-container">
